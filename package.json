@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/fryylord/techblog.git"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +19,6 @@
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
-
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
