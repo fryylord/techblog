@@ -34,7 +34,7 @@ router.delete('/:id', withAuth, (req, res) => {
       })
         .then(dbCommentData => {
           if (!dbCommentData) {
-            res.status(404).json({ message: 'No comment found' });
+            res.status(404).json({ message: "No comment found" });
             return;
           }
           res.json(dbCommentData);
