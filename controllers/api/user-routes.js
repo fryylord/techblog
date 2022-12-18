@@ -1,7 +1,6 @@
 const { Post, User, Comment } = require('../models');
 const router = require('express').Router();
 const withAuth = require('../utils/auth');
-const session = require('express-session');
 
 router.get('/', (req, res) => {
     User.findAll({
