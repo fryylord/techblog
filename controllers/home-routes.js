@@ -65,7 +65,7 @@ router.get('/signup', (req, res) => {
       },
       attributes: [
         'id',
-        'post_text',
+        'post_content',
         'title',
         'created_at'
       ],
