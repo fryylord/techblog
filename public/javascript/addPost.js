@@ -1,3 +1,4 @@
+//Function for adding a post
 async function newFormHandler(event) {
     event.preventDefault();
   

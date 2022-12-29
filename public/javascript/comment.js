@@ -1,3 +1,4 @@
+//Function for commenting on a post
 async function commentFormHandler(event) {
     event.preventDefault();
   

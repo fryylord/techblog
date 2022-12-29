@@ -1,3 +1,4 @@
+//Function for creating a login account
 async function signupFormHandler(event) {
     event.preventDefault();
   

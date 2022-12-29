@@ -1,9 +1,11 @@
+//Dependencies
 const { Post, User, Comment } = require('../../models');
 const router = require('express').Router();
 const withAuth = require('../../utils/auth');
 const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
+//Routes
 router.get('/', (req, res) => {
     User.findAll({
         attributes: { exclude: ['password'] }
